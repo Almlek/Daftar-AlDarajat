@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- النسخة العربية — مطابقة للنسخة الإنجليزية تماماً -->
+    <!-- ملاحظة: بما أن النسخة الافتراضية (values) هي الإنجليزية، يجب أن تكون strings_ar مطابقة -->
+
+    <string name="app_name">دفتر الدرجات الذكي</string>
+
+    <string name="screen_dashboard">لوحة التحكم</string>
+    <string name="screen_students">الطلاب</string>
+    <string name="screen_student_form">تفاصيل الطالب</string>
+    <string name="screen_grade_entry">إدخال الدرجات</string>
+    <string name="screen_grades_table">جدول الدرجات</string>
+    <string name="screen_student_profile">ملف الطالب</string>
+    <string name="screen_analytics">التحليل الإحصائي</string>
+    <string name="screen_import">استيراد</string>
+    <string name="screen_export">تصدير</string>
+    <string name="screen_reports">التقارير</string>
+    <string name="screen_settings">الإعدادات</string>
+    <string name="screen_backup">النسخ الاحتياطي</string>
+
+    <string name="ok">حسناً</string>
+    <string name="cancel">إلغاء</string>
+    <string name="save">حفظ</string>
+    <string name="delete">حذف</string>
+    <string name="edit">تعديل</string>
+    <string name="add">إضافة</string>
+    <string name="search">بحث</string>
+    <string name="filter">تصفية</string>
+    <string name="sort">ترتيب</string>
+    <string name="loading">جاري التحميل…</string>
+    <string name="error">حدث خطأ</string>
+    <string name="retry">إعادة المحاولة</string>
+    <string name="no_data">لا توجد بيانات</string>
+    <string name="confirm">تأكيد</string>
+    <string name="yes">نعم</string>
+    <string name="no">لا</string>
+
+    <string name="dashboard_welcome">مرحباً بك في دفتر الدرجات الذكي</string>
+    <string name="dashboard_total_students">إجمالي الطلاب</string>
+    <string name="dashboard_average_grade">متوسط الدرجات</string>
+    <string name="dashboard_term_results">نتائج الفصول</string>
+    <string name="dashboard_recent_activity">النشاط الأخير</string>
+    <string name="dashboard_quick_actions">إجراءات سريعة</string>
+    <string name="dashboard_add_student">إضافة طالب جديد</string>
+    <string name="dashboard_view_grades">عرض الدرجات</string>
+    <string name="dashboard_analytics">التحليل الإحصائي</string>
+
+    <string name="students_title">إدارة الطلاب</string>
+    <string name="students_add">إضافة طالب</string>
+    <string name="students_edit">تعديل الطالب</string>
+    <string name="students_delete">حذف الطالب</string>
+    <string name="students_confirm_delete">هل أنت متأكد من حذف هذا الطالب؟</string>
+    <string name="students_name">الاسم الكامل</string>
+    <string name="students_id">الرقم التعريفي</string>
+    <string name="students_class">الصف/القسم</string>
+    <string name="students_email">البريد الإلكتروني</string>
+    <string name="students_phone">رقم الهاتف</string>
+    <string name="students_parent_contact">اتصال ولي الأمر</string>
+    <string name="students_notes">ملاحظات</string>
+    <string name="students_empty">لا يوجد طلاب مضافين. أضف طالبك الأول!</string>
+
+    <string name="grade_entry_title">إدخال الدرجات</string>
+    <string name="grade_entry_month">الشهر</string>
+    <string name="grade_entry_subject">المادة</string>
+    <string name="grade_entry_grade">الدرجة</string>
+    <string name="grade_entry_max_grade">الدرجة القصوى</string>
+    <string name="grade_entry_date">التاريخ</string>
+    <string name="grade_entry_notes">ملاحظات</string>
+    <string name="grade_entry_save">حفظ الدرجة</string>
+    <string name="grade_entry_success">تم حفظ الدرجة بنجاح</string>
+
+    <string name="grades_table_title">جدول الدرجات</string>
+    <string name="grades_table_month">الشهر</string>
+    <string name="grades_table_subject">المادة</string>
+    <string name="grades_table_grade">الدرجة</string>
+    <string name="grades_table_average">المتوسط</string>
+    <string name="grades_table_add_grade">إضافة درجة</string>
+
+    <string name="student_profile_title">ملف الطالب</string>
+    <string name="student_profile_info">معلومات الطالب</string>
+    <string name="student_profile_grades">الدرجات</string>
+    <string name="student_profile_progress">التقدم الدراسي</string>
+    <string name="student_profile_export">تصدير ملف الطالب</string>
+
+    <string name="analytics_title">التحليل الإحصائي</string>
+    <string name="analytics_average">المتوسط العام</string>
+    <string name="analytics_best_subject">أفضل مادة</string>
+    <string name="analytics_weak_subject">المادة التي تحتاج تحسين</string>
+    <string name="analytics_trend">الاتجاه</string>
+    <string name="analytics_distribution">توزيع الدرجات</string>
+
+    <string name="import_title">استيراد البيانات</string>
+    <string name="import_select_file">اختر ملفاً</string>
+    <string name="import_csv">ملف CSV</string>
+    <string name="import_xlsx">ملف Excel</string>
+    <string name="import_success">تم الاستيراد بنجاح: %d سجل</string>
+    <string name="import_error">فشل الاستيراد</string>
+
+    <string name="export_title">تصدير البيانات</string>
+    <string name="export_select_format">اختر الصيغة</string>
+    <string name="export_csv">CSV</string>
+    <string name="export_xlsx">Excel</string>
+    <string name="export_pdf">PDF</string>
+    <string name="export_success">تم التصدير بنجاح</string>
+    <string name="export_error">فشل التصدير</string>
+
+    <string name="reports_title">التقارير</string>
+    <string name="reports_student">تقرير طالب</string>
+    <string name="reports_term">تقرير الفصل</string>
+    <string name="reports_terminal">التقرير الختامي</string>
+    <string name="reports_generate">توليد التقرير</string>
+
+    <string name="settings_title">الإعدادات</string>
+    <string name="settings_language">اللغة</string>
+    <string name="settings_arabic">العربية</string>
+    <string name="settings_english">English</string>
+    <string name="settings_dark_mode">الوضع الداكن</string>
+    <string name="settings_auto">تلقائي</string>
+    <string name="settings_light">فاتح</string>
+    <string name="settings_dark">داكن</string>
+    <string name="settings_about">عن التطبيق</string>
+    <string name="settings_version">الإصدار</string>
+
+    <string name="backup_title">النسخ الاحتياطي</string>
+    <string name="backup_create">إنشاء نسخة احتياطية</string>
+    <string name="backup_restore">استعادة نسخة احتياطية</string>
+    <string name="backup_select_file">اختر ملف النسخ الاحتياطي</string>
+    <string name="backup_success">تمت الاستعادة بنجاح</string>
+    <string name="backup_error">فشل الاستعادة</string>
+
+    <string name="error_network">تحتاج إلى اتصال بالإنترنت</string>
+    <string name="error_storage">لا يمكن الوصول إلى مساحة التخزين</string>
+    <string name="error_permission">تحتاج إلى إذن للوصول إلى هذا المورد</string>
+    <string name="error_file_not_found">الملف غير موجود</string>
+    <string name="error_invalid_format">صيغة الملف غير صحيحة</string>
+
+    <string name="confirm_delete_student">هل أنت متأكد من حذف هذا الطالب وجميع درجاته؟</string>
+    <string name="confirm_exit">هل تريد الخروج من التطبيق؟</string>
+</resources>
